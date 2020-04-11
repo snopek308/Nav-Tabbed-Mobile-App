@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 x:Class="TabbedPageWithNavigationPage.TodayPage"
+			 IconImageSource="meteor.png"
+			 Title="Intro Page">
+
+    <StackLayout>
+        <Label Text="Homework Nine-Tabbed App with a Nav Page"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        <Image Source="hammerconvert.png"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand" />
+    </StackLayout>
+
+
+
+    <!--<StackLayout Margin="20,35,20,20">
+        <Image Source="http://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Papio_anubis_%28Serengeti%2C_2009%29.jpg/200px-Papio_anubis_%28Serengeti%2C_2009%29.jpg"
+               HeightRequest="300" />
+    </StackLayout>-->
+
+    <!--<StackLayout>
+            <Image Source="hammer.png"
+       WidthRequest="{OnPlatform iOS=300, Android=250}"
+       HorizontalOptions="Center" />
+        </StackLayout>-->
+    
+	<!--<ContentPage.Content>
+
+
+
+        --><!--<StackLayout>
+			
+<Label Text="This is supposed to have an image on it" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+        </StackLayout>--><!--
+	</ContentPage.Content>-->
+
+</ContentPage>

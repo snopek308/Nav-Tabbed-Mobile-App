@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TabbedPageWithNavigationPage.SettingsPage" IconImageSource="crow.png" Title="Credits">
+	<ContentPage.Content>
+
+        <StackLayout>
+            <Label Text="This app was created by Abby Snopek, per the requirements of Matt Green-Homework Nine."
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Photo Credit to the search engine Google and FontAwesome"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"  
+                   />
+            <Button Text="Surprise Modal" Clicked="SurpriseModal"/>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
